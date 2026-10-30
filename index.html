@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mellysa Purnama Sari - Portfolio</title>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#f8f7ff;--primary:#6C5CE7;--dark:#1a1a2e;--card:#ffffff;--text:#555;}
+*{margin:0;padding:0;box-sizing:border-box;font-family:'Plus Jakarta Sans',sans-serif;}
+body{background:var(--bg);color:var(--dark);line-height:1.6;}
+header{padding:20px 8%;display:flex;justify-content:space-between;align-items:center;background:white;position:sticky;top:0;z-index:10;box-shadow:0 2px 20px rgba(0,0,0,0.05);}
+.logo{font-weight:700;font-size:20px;color:var(--primary);}
+nav a{margin-left:24px;text-decoration:none;color:var(--dark);font-weight:600;font-size:14px;}
+.hero{padding:80px 8% 60px;display:grid;grid-template-columns:1.2fr 0.8fr;gap:40px;align-items:center;}
+.hero h1{font-size:52px;line-height:1.1;margin:12px 0;}
+.hero h1 span{color:var(--primary);}
+.badge{display:inline-block;background:#e9e6ff;color:var(--primary);padding:6px 14px;border-radius:20px;font-weight:700;font-size:12px;letter-spacing:1px;}
+.hero p{color:var(--text);margin:20px 0;font-size:16px;max-width:520px;}
+.btn{display:inline-block;background:var(--primary);color:white;padding:14px 28px;border-radius:12px;text-decoration:none;font-weight:700;margin-top:10px;}
+.card{background:var(--card);border-radius:20px;padding:28px;box-shadow:0 10px 30px rgba(108,92,231,0.08);}
+.section{padding:70px 8%;}
+.section-title{font-size:32px;margin-bottom:30px;}
+.grid-2{display:grid;grid-template-columns:1fr 1fr;gap:24px;}
+.grid-3{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;}
+.info-item{margin-bottom:12px;font-size:14px;}
+.info-item b{display:inline-block;width:80px;color:var(--text);font-size:12px;}
+.skill-tag{background:#f1f0ff;border:1px solid #e0dcff;color:var(--primary);padding:8px 14px;border-radius:10px;font-size:13px;font-weight:600;display:inline-block;margin:6px 6px 0 0;}
+.exp-card{border-left:4px solid var(--primary);padding-left:20px;margin-bottom:28px;}
+.exp-card h4{font-size:18px;}
+.exp-card .role{color:var(--primary);font-weight:700;font-size:14px;margin:4px 0;}
+.exp-card ul{margin:10px 0 0 18px;color:var(--text);font-size:14px;}
+.contact-box{text-align:center;padding:80px 8%;background:var(--dark);color:white;border-radius:32px;margin:40px 8%;}
+.contact-box a{color:white;text-decoration:none;border:1px solid rgba(255,255,255,0.2);padding:12px 20px;border-radius:12px;margin:8px;display:inline-block;}
+@media(max-width:900px){.hero{grid-template-columns:1fr;}.grid-2,.grid-3{grid-template-columns:1fr;} .hero h1{font-size:38px;}}
+</style>
+</head>
+<body>
+<header><div class="logo">MELLYSAA.</div><nav><a href="#about">About</a><a href="#skills">What I Can Do</a><a href="#achievement">Achievement</a><a href="#contact">Contact</a></nav></header>
+<section class="hero">
+<div>
+<span class="badge">MAHASISWA BARU INFORMATIKA</span>
+<h1>Hi, I'm <span>Mellysa Purnama Sari</span></h1>
+<p>Mahasiswi Sistem Informasi - Universitas Negeri Surabaya dengan passion di bidang Sistem Informasi, pengelolaan bisnis online, dan teknologi. Berpengalaman sebagai owner thrift shop & jasa print, serta aktif di organisasi pesantren dan robotika.</p>
+<a class="btn" href="#contact">Hubungi Saya</a>
+</div>
+<div class="card" style="text-align:left;padding:16px;">
+<img src="profile.jpg" style="width:100%;height:340px;object-fit:cover;object-position:top;border-radius:16px;margin-bottom:16px;" alt="Mellysa Purnama Sari">
+<div style="padding:0 12px 12px;">
+<h3 style="margin-bottom:12px;">About Me</h3>
+<div class="info-item"><b>Nama</b> Mellysa Purnama Sari</div>
+<div class="info-item"><b>NIM</b> 26051214227</div>
+<div class="info-item"><b>Prodi</b> Sistem Informasi</div>
+<div class="info-item"><b>Kampus</b> Universitas Negeri Surabaya</div>
+<div class="info-item"><b>Email</b> mellysapurnama12@gmail.com</div>
+</div>
+</div>
+</section>
+<section id="skills" class="section"><h2 class="section-title">What I Can Do</h2><div class="grid-3"><div class="card"><h3>Business & Operation</h3><div style="margin-top:12px;"><span class="skill-tag">Manajemen Toko Online</span><span class="skill-tag">Stok & Keuangan Excel</span><span class="skill-tag">Customer Service</span><span class="skill-tag">Foto Produk</span><span class="skill-tag">Analisis Tren Fashion</span></div></div><div class="card"><h3>Technical Service</h3><div style="margin-top:12px;"><span class="skill-tag">Print, Fotocopy, Scan</span><span class="skill-tag">Perawatan Printer</span><span class="skill-tag">Word, PDF, Excel</span><span class="skill-tag">Pembukuan Excel</span><span class="skill-tag">Editing Ringan</span></div></div><div class="card"><h3>Tech & Tools</h3><div style="margin-top:12px;"><span class="skill-tag">Excel / Google Sheets</span><span class="skill-tag">Canva / CapCut</span><span class="skill-tag">Arduino Dasar</span><span class="skill-tag">IG & TikTok Marketing</span><span class="skill-tag">Sistem Informasi</span></div></div></div></section>
+<section id="achievement" class="section" style="background:white;"><h2 class="section-title">Achievement & Experience</h2><div class="grid-2"><div><div class="exp-card"><h4>Owner - Thrift Shop Fashionbyamelia</h4><div class="role">Owner Bisnis Online</div><ul><li>Mengelola operasional toko online, sorting 50+ pcs pakaian, foto produk hingga pengemasan</li><li>Mengelola stok dan keuangan harian menggunakan Excel / Google Sheets</li><li>Membuat konten promosi & strategi marketing di Instagram & TikTok</li><li>Melayani 20+ pelanggan/minggu dengan komunikasi yang baik</li></ul></div><div class="exp-card"><h4>Owner / Operator - Jasa Print & Fotocopy Amelia</h4><div class="role">Owner Jasa</div><ul><li>Melayani 30+ pelanggan per hari untuk print, fotocopy, scan</li><li>Operasi & perawatan rutin printer, mesin fotocopy, komputer</li><li>Mengelola laporan keuangan harian, stok kertas & tinta</li></ul></div></div><div><div class="exp-card"><h4>Anggota Divisi Teknis - Ekstrakurikuler Robotika</h4><div class="role">2022 - 2024</div><ul><li>Perakitan & pemrograman dasar robot menggunakan Arduino</li><li>Kerja sama tim 4-5 orang untuk proyek robot soccer / sumo</li><li>Memahami logika pemrograman & troubleshooting hardware</li></ul></div><div class="exp-card"><h4>Pengurus OSIS Pondok Pesantren Hasbulloh Bahrul</h4><div class="role">Divisi Keagamaan 2022-2025 & Kesehatan 2020-2021</div><ul><li>Memimpin & mengkoordinasi kegiatan keagamaan harian untuk 100+ santri</li><li>Bertanggung jawab event PHBI, Haflah Akhirussanah, Istighosah</li><li>Bertanggung jawab kesehatan & kebersihan asrama 100+ santri</li><li>Mengelola persediaan obat-obatan dasar & P3K</li></ul></div><div class="card" style="background:#f8f7ff;"><h4>Karya Terbaru</h4><p style="font-size:14px;color:#555;margin-top:8px;">Video Kreatif "Peran Sistem Informasi dalam Mengotomatiskan Laporan Keuangan" & Poster Digital Identitas Muslim Era Globalisasi</p></div></div></div></section>
+<section id="contact" class="contact-box"><h2 style="font-size:36px;margin-bottom:12px;">Let's Connect!</h2><p style="opacity:0.8;margin-bottom:24px;">Jangan Cuma Jadi Pelajar, Mulai Bangun Personal Branding-mu!</p><a href="mailto:mellysapurnama12@gmail.com">mellysapurnama12@gmail.com</a><a href="https://www.linkedin.com/in/mellysa-sari-b72a28444" target="_blank">LinkedIn</a><a href="https://github.com/" target="_blank">GitHub</a><div style="margin-top:30px;font-size:12px;opacity:0.5;">© 2025 Mellysa Purnama Sari - 26051214227 - Sistem Informasi UNESA</div></section>
+</body>
+</html><slot></slot>
